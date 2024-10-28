@@ -1,15 +1,12 @@
-compositionIdentifier: example.cloud
+compositionIdentifier: moneyforward.com
 provider:
-  baseURL: https://raw.githubusercontent.com/chen1620/%s/%s/package/crds/%s
-  name: provider-aws
-  version: v0.32.0
+  baseURL: https://raw.githubusercontent.com/crossplane-contrib/%s/%s/package/crds/%s
+  name: provider-upjet-aws
+  version: v1.16.0
 labels:
   fromCRD:
-    - tags.moneyforward.com/budget-component
-  common:
-    commonLabelA: commonLabelAValue
-    commonLabelB: commonLabelBValue
+    - tags.moneyforward.com/BudgetComponent
 tags:
   fromLabels:
-    - tags.moneyforward.com/budget-component
+    - tags.moneyforward.com/BudgetComponent
 usePipeline: false

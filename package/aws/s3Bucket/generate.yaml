@@ -1,0 +1,14 @@
+group: s3.aws.moneyforward.com
+name: Bucket
+version: v1beta1
+provider:
+  name: provider-upjet-aws
+  version: v1.16.0
+  crd:
+    file: s3.aws.upbound.io_buckets.yaml
+    version: v1beta1
+ignore: false
+compositions:
+  - name: compositebucket.s3.aws.moneyforward.com
+    provider: provider-upjet-aws
+    default: true
