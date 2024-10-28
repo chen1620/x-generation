@@ -1,4 +1,4 @@
-group: s3.aws.example.cloud
+group: s3.aws.moneyforward.com
 name: Bucket
 version: v1alpha1
 provider:
@@ -9,6 +9,6 @@ provider:
     version: v1beta1
 ignore: false
 compositions:
-  - name: compositebucket.s3.aws.example.cloud
+  - name: bucket.s3.aws.moneyforward.com
     provider: example
     default: true
